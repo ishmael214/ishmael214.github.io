@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.pic {
+    background-image: url(lit\ \(2\).jpg);
+    background-size: cover;
+    min-height: 100%;
+    max-width: 100%;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.name {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.main-head {
+    background-image: url();
+    text-align: center;
+    border-bottom: black 1px solid;
+    background-size: contain;
+    max-height: 100%;
+    background-color: black;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-head a {
+    text-decoration: none;
+}
+
+
+.info {
+    margin: 0px;
+    padding: 0%;
+}
+
+.info li {
+    display: inline-block;
+    text-align: center; 
+}
+
+
+
+.info a {
+    text-decoration: none;
+    padding: 5em;
+    display: inline-block;
+    
+}
+
+.info a:hover{
+    background-color: grey;
+    
+ }
+
+
+ .banner ul {
+    margin: 0;
+ }
+
+ .banner li {
+     display: inline;
+ }
+
+ .banner img {
+     width: 105px;
+     height: 75px;
+ }
+
+.banner a {
+    padding: 1.2em;
+    display: inline-block;
+}
+
+.banner .man {
+    width: 170px;
+    height: 75px;
+}
+
+.banner .sam {
+    width: 200px;
+    height: 75px;
+}
+
+ .banner a:hover {
+     background-color: grey;
+ }
+
+.artists ul {
+    margin: 0;
+}
+
+.artists li {
+    display: inline;
+}
+
+.artists a {
+    text-decoration: none;
+    padding: 1.45em;
+    display: inline-block;
+}
+
+.artists a:hover {
+    background-color: grey;
+}
+
+
+
+.dvid video {
+    position: relative;
+    max-width: 100%; 
+    min-height: 100%;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+
+.bazaar {
+    position: relative;
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.merch-store {
+    text-align: center;
+    
+
+    align-items: center;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.tings {
+    padding: 0 .5em;
+    display: inline;
+    
+    font-size: 40px;
+    z-index: 3;
+    padding-bottom: 70px;
+    bottom: auto;
+}
+.tings a {
+    text-decoration: none;
+    color: black;
+}
+
+.tings a:hover {
+    color: gold
+}
+
+.tings img {
+    max-height:25%;
+    max-width: 25%;
+    
+}
+
+.sfoot {
+    background-image: url(SPIC3.jpeg);
+    padding: .25em;
+    color: white; 
+    bottom: 0;
+    padding-bottom: 0px;
+    position: fixed;
+    min-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+}
+
+.mfoot {
+    background-image: url();
+    padding: .25em;
+    color: white; 
+    bottom: 0;
+    padding-bottom: 0px;
+    position: fixed;
+    min-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+    background-color: #000000;
+}
+
+.zfoot {
+    background-image: url(zdub2.jpeg);
+    padding: .25em;
+    color: white; 
+    bottom: 0;
+    padding-bottom: 0px;
+    position: fixed;
+    min-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+}
+
+.dfoot {
+    background-image: url();
+    padding: .25em;
+    color: white; 
+    bottom: 0;
+    padding-bottom: 0px;
+    position: fixed;
+    min-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+    background-color: #000000;
+}
+
+.dfoot-container {
+    align-items: center;
+    display: flex;
+}
+
+.dfoot-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.dfname {
+    
+    
+    display: inline-block;
+    font-size: 45px;
+}
+
+
+.footer-nav li {
+    padding: 0 .5em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.footer-nav img {
+    width: 65px;
+    height: 45px;
+}
+
+.indexfooter{
+    background-color: #000000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+
+.indexfooter a {
+    text-decoration: none;
+    color: gold;
+    font-size: 40px;
+}
+
+.indexfooter img {
+    height: 115px;
+    width: 630px;
+}
+
+.controls {
+
+}
+
+.crendentials {
+
+}
